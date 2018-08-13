@@ -30,6 +30,6 @@
     "autoload": {
         "psr-4": {
             "AkibTanjim\\Currency\\": "src"
-        },
+        }
     }
 }
