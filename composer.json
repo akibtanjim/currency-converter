@@ -1,0 +1,35 @@
+{
+    "name": "akibtanjim/laravel-currency-converter",
+    "description": "This package provides currency rates as well as single and multiple currency for Laravel app by using https://openexchangerates.org  API",
+    "keywords": [
+      "laravel", "laravel 5", "currency", "exchange", "conversion", "currency conversion"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akib Tanjim",
+            "email": "akibtanjim@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "ixudra/curl": "6.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AkibTanjim\\Currency\\CurrencyServiceProvider"
+            ],
+            "aliases": {
+                "Currency": "AkibTanjim\\Currency\\Facades\\CurrencyConverter"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AkibTanjim\\Currency\\”: "src"
+        }
+    }
+}
