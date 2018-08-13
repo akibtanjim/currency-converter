@@ -81,6 +81,8 @@ In your ```routes/web.php``` paste the following code.
 Now open your ```.env``` file and paste the follwing code:
 ```
   OPEN_EXCHANGE_RATES_API_KEY=YOUER_API_KEY
+  BASE_CURRENCY=YOUR_BASE_CURRENCY
+  CURRENCY_CACHE=60 //in minutes
 ```
 Open command prompt and run:
 ```
