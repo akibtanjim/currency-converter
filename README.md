@@ -9,7 +9,7 @@ There are 4 types of plan in open exchange rate. By using free plan and it's api
 Install using composer:
 ```
 
-composer require akibtanjim/currency-converter:dev-master
+composer require akibtanjim/currency-converter
 
 ```
 
