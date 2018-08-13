@@ -57,5 +57,6 @@ class Currency {
 	        	return ['from'=>$fromCurrency,'to'=>$toCurrency,"message"=>"To Currency Suported"];
 	        }
         }
+        
 	}
 }
