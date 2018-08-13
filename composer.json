@@ -1,5 +1,5 @@
 {
-    "name": "akibtanjim/laravel-currency-converter",
+    "name": "akibtanjim/currency-converter",
     "description": "This package provides currency rates as well as single and multiple currency for Laravel app by using https://openexchangerates.org  API",
     "keywords": [
       "laravel", "laravel 5", "currency", "exchange", "conversion", "currency conversion"
